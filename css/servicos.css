@@ -1,0 +1,67 @@
+.serviços h1 {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  padding-top: 200px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.serviços h2 {
+  color: black;
+  text-align: center;
+}
+
+.serviços p {
+  color: grey;
+  font-family: "Roboto", serif;
+  font-size: 15px;
+  max-width: 25ch;
+  text-align: center;
+  align-content: center;
+  padding-left: 100px;
+}
+
+.serviços ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 20px 20px 0px;
+  overflow: auto;
+}
+
+.serviços img {
+  margin-bottom: 16px;
+  max-width: 100%;
+}
+
+.serviços li {
+  flex: 1;
+  min-width: 280px;
+  align-items: center;
+  min-width: 280px;
+}
+
+.serviços a {
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .serviços img {
+    max-width: 350px;
+    align-items: center;
+  }
+
+  .serviços h2 {
+    text-align: center;
+  }
+  .serviços p {
+    max-width: 100%;
+    padding-left: 30px;
+    text-align: center;
+    font-size: 15px;
+  }
+}
