@@ -1,66 +1,61 @@
-.serviços h1 {
-  color: black;
-  font-family: "Poppins", sans-serif;
-  margin: 0 auto;
-  padding-top: 200px;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.serviços h2 {
-  color: black;
-  text-align: center;
-}
-
-.serviços p {
-  color: grey;
-  font-family: "Roboto", serif;
-  font-size: 15px;
-  max-width: 25ch;
-
-  padding-left: 120px;
-}
-
-.serviços ul {
+.serviços-conteudo {
   display: flex;
   flex-wrap: wrap;
-  gap: 60px;
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px 20px 20px 0px;
-  overflow: auto;
+  gap: 50px;
+  padding: 100px;
+  justify-content: center;
 }
 
-.serviços img {
-  margin-bottom: 16px;
-  max-width: 100%;
-}
-
-.serviços li {
-  flex: 1;
-  min-width: 280px;
-  align-items: center;
-  min-width: 280px;
-}
-
-.serviços a {
+.serviços-conteudo img {
+  max-width: 500px;
   display: block;
 }
 
+.serviços-feitos h2 {
+  padding-left: 80px;
+  line-height: 40px;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.serviços-feitos p {
+  padding-left: 80px;
+  font-family: "Roboto", serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #595959;
+  max-width: 350px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+}
+
+.serviços-feitos a {
+  justify-content: center;
+  margin-left: 100px;
+  background: #1868e0;
+  padding: 10px 80px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 @media (max-width: 800px) {
-  .serviços img {
-    max-width: 350px;
-    align-items: center;
+  .serviços-feitos {
+    padding: 10px;
+    max-width: 1200px;
   }
-
-  .serviços h2 {
-    text-align: center;
+  .serviços-feitos a {
+    padding: 10px 30px;
   }
-  .serviços p {
-    max-width: 100%;
-    padding-left: 30px;
-
-    font-size: 21px;
+  .serviços-conteudo {
+    justify-content: flex-end;
+    margin: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
   }
 }

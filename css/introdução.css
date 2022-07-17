@@ -22,14 +22,18 @@
   line-height: 25px;
   color: #595959;
   margin-bottom: 40px;
+  font-family: "Roboto", serif;
 }
 
 .introducao a {
   padding: 20px 30px;
   border-radius: 4px;
   background: #1868e0;
+  font-size: 20px;
+  font-weight: bold;
   color: white;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 
 .introducao a:hover {
