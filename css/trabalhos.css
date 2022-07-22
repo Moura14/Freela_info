@@ -1,19 +1,25 @@
 .trabalhos {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 40px;
+  grid-template-columns: 1fr auto;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 200px;
 }
 
 .trabalhos-habilidades {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
+  max-width: 500px;
+  justify-content: flex-start;
 }
 
 .trabalhos-titulo {
   font-style: bold;
   color: black;
   font-size: 24px;
+  font-weight: bold;
   font-family: "Poppins", sans-serif;
 }
 
@@ -25,11 +31,11 @@
 }
 
 .trabalhos-feitos {
-  background-color: #fdfbfb;
-  max-width: 400px;
-  margin: 40px;
-  padding: 30px;
+  max-height: 200px;
+  padding: 100px;
   border-radius: 5px;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .trabalhos-habilidades li {
@@ -38,4 +44,8 @@
   margin: 10px;
   text-align: center;
   border-radius: 5px;
+}
+
+.imagem-trabalhos {
+  margin-top: 200px;
 }
